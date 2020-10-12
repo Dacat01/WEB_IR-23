@@ -15,7 +15,7 @@ footer{
 
 .footer__navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -28,13 +28,13 @@ font-size: 12px;
 line-height: 14px;
 
 color: #FFFFFF;
-
+padding-right: 30px;
 mix-blend-mode: normal;
 opacity: 0.6;
 }
 
 .footer_name{
-
-margin-left: 30%;
+align-self: center;
+padding-left: 16%;
 
 }
