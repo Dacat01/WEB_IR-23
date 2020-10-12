@@ -1,0 +1,38 @@
+footer{
+    margin: 0 auto;
+    max-width: 1000px;
+
+    background: #222F33;
+    padding: 60px 0 32px 0;
+    /*
+    padding: 85px 100px 85px 100px;
+
+    display: flex;
+    align-items:left;
+    color: #222F33;
+*/
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-item{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.footer_name{
+margin-left: 30%;
+}
