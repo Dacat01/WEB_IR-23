@@ -29,16 +29,18 @@
     font-size: 30px;  
     line-height: 38px;
 }
-
+.hero_item{
+    font-size: 12px;
+}
 .hero_social{
  /* 
     height:500px; 
     width:500px;
         padding-left: 50px;
-    */
+  
     align-self: center;
 
-
+  */
     
     margin-left: 0%;
 
@@ -46,18 +48,14 @@
 }
 
 .hero__links{
+
     transform: rotate(90deg);
 
 
 }
-/*
-.hero_movie{
-    margin-right: 60px;
-}
-*/
+
+
 .container{
-
-
 display: flex;
 align-items:center;
 
