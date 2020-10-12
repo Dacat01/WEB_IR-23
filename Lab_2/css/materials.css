@@ -1,0 +1,43 @@
+
+.materials_container{
+    margin: 0 auto;
+    max-width: 950px;
+    padding-left: 50px;
+    display: flex;
+    align-items:left;
+
+}
+
+.materials_text{
+    width: 465px;
+  /*margin-bottom: 50px;*/
+    padding-right: 5%;
+}
+
+.materials__title{
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #222F33;
+    }
+
+    
+
+
+.materials__paragraph{
+Font: Rubik;
+font-weight: normal;
+font-size: 14px;
+line-height:26px;
+color: #646D70;
+}
+
+.button_read{
+    margin-top: 40px;
+    border: 1px solid #646D70;
+    padding: 10px 13.5px 10px 13.5px;
+}
+
