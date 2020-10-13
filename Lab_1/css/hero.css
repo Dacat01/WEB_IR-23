@@ -3,22 +3,21 @@
     background-repeat: no-repeat ;
     background-position: center;    /* % or px*/
     padding-top: 10px;
-    /*    background: url(../images/bgimage.svg) no-repeat right -120% top; */ 
 }
 
 .container{
     display: flex;
     align-items:center;
-    
-    }
+}
 
 .hero__text{
 
     width: 440px;
+
     padding-bottom:170px;
     padding-top: 15%;
     padding-left: 8%;
-    padding-right: 25%;
+    padding-right: 15%;
 }
 
 .hero__title{
@@ -38,27 +37,7 @@
 .hero_item{
     font-size: 12px;
 }
-.hero_social{
- /* 
-    height:500px; 
-    width:500px;
-        padding-left: 50px;
-  
-    align-self: center;
 
-  
-    
-    margin-left: 0%;
-*/
-
-}
-
-.hero__links{
-
-    transform: rotate(90deg);
-
-
-}
 
 
 
