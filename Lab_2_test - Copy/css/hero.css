@@ -3,48 +3,19 @@
     background-repeat: no-repeat ;
     background-position: center;    /* % or px*/
     padding-top: 2vh;
-/*    max-width: 100%;*/
-}
-
-
-@media screen and (max-width: 320px) {
-
-    .hero__title{
-        font-weight: 500 !important;
-        font-size: 12px !important;  
-        line-height: 19px !important; 
-        }
-
-    .hero__paragraph{
-        font-size: 16px !important;  
-        line-height: 15px !important; 
-    }
-
-    .container__text{
-        padding-right: 5vw !important;
-    }
-    .movie{
-        font-size: 12px !important;  
-    }
-
-    .hero__text{
-        width: 50% !important;
-        padding-top: 5% !important ;
-        padding-left: 5% !important ;
-        padding-right: 0% !important;
-    }
-
 
 }
+
+
 
 .hero__text{
 
     width: 440px;
 
-    padding-bottom:15%;
+    padding-bottom:170px;
     padding-top: 15%;
     padding-left: 8%;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .hero__title{
@@ -61,12 +32,10 @@
     font-size: 30px;  
     line-height: 38px;
 }
-
-/*
 .hero_item{
-    font-size: 12px;        /*???
+    font-size: 12px;
 }
-*/
+
 
 
 

@@ -16,14 +16,7 @@ body{
     font-family: "Rubik" , "Arial", "sans-serif";
     color: #FFFFFF;
 }
-/*
-@media screen and (max-width: 320px) {
-    body {
-    text-align: center;
-        }
-        
-}
-*/
+
 a{
     text-decoration: none;
     color: #FFFFFF;

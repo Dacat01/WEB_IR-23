@@ -1,37 +1,4 @@
 
-@media screen and (max-width: 320px) {
-
-    .materials__title{
-        font-weight: 700 !important;
-        font-size: 20px !important;
-        line-height: 28px !important;
-    }
-
-    .materials__paragraph{
-        font-size: 14px !important;
-        line-height:15px !important;
-    
-    }
-    .materials_container{
-        padding-left: 0 !important;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .materials_text{
-        max-width: 100%;
-        padding-left: 2vw;
-        padding-bottom: 2vh;
-    }
-
-    .materials__image img{
-        max-width: 100%;
-    }
-
-
-}
-
-
 .materials_container{
     margin: 0 auto;
     max-width: 950px;
@@ -43,7 +10,7 @@
 
 .materials_text{
     width: 465px;
-    padding-right: 5vw;
+    padding-right: 5%;
 }
 
 .materials__title{

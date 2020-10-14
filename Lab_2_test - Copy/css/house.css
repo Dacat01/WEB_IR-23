@@ -1,29 +1,8 @@
 
-
-@media screen and (max-width: 320px) {
-    .house{
-        max-width: 320px;
-
-        display: flex;
-        flex-direction: column;
-        padding: 0 !important;
-
-
-    }
-
-    .house img{
-        width: 100%;
-    }
-    .house_types{
-    margin-right: 0 !important;
-    padding-left: 4vw ;
-    padding-right: 4vw;
-    }    
-}
-
 .house{
     margin: 0 auto;
     max-width: 950px;
+/*   padding: 85px 100px 85px 100px;*/
     padding: 10vh 0vw 10vh 10vw;
 
     display: flex;

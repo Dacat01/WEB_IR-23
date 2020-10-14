@@ -1,26 +1,3 @@
-
-
-@media screen and (max-width: 320px) {
-    footer{
-        max-width: 320px !important;
-        padding-top: 2vh !important;
-        padding-bottom: 0 !important;
-  
-    }
-
-    .footer__navigation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-item, .footer_name{
-        padding-right: 0vw !important ;
-        padding-bottom: 5vw !important ;
-    }
-
-}
-
 footer{
     margin: 0 auto;
     max-width: 1000px;
