@@ -1,0 +1,36 @@
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color{
+    from{
+        color: #fff;
+    }
+    33%{
+        color: yellow;
+
+    }
+    66%{
+        color: red;
+
+    }
+    to{
+        color: blue;
+    }
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0.1;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

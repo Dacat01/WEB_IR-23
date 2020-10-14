@@ -5,12 +5,14 @@
 
     padding-left: 10% ;
     padding-right:5%;
-
 }
 
-.header__title
-{
-    padding-right:20%;
+
+
+.header__title{
+    padding-right:35%;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .header__nav ul{
@@ -23,9 +25,16 @@
 
 }
 
-.header__title{
-    font-weight: 500;
-    font-size: 20px;
+.container{
+    margin: 0 auto;
+    max-width: 950px;
+    max-height: 636px;
+    display: flex;
+    align-items:center;
 }
 
-
+.header__container{
+    display: flex;
+    align-items:center; 
+    margin-left: 10%;
+}

@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 
+<!--  
+  
+  <div class="nav">
+    <label for ="toggle">&#9776; </label>
+    <input type="checkbox" id="toggle"> 
+    <div class="menu">
+      <a href="#">Modellen</a>
+      <a href="#">Kopen</a>
+      <a href="#">Huren</a>
+      <a href="#">Nieuws</a>
+    </div>
+  </div>  
+-->
+
 <head>
 
   <meta charset="UTF-8">
@@ -21,7 +35,18 @@
     <div class="container">
       <header class="header__container">
 
-        <img src="images/house.svg" alt="house">
+          <div class="nav">
+          <label for="toggle" class="burger">&#9776;</label>
+          <input type="checkbox" id="toggle"/>
+              <div class="menu">
+                <a href="#">Modellen</a>
+                <a href="#">Kopen</a>
+                <a href="#">Huren</a>
+                <a href="#">Nieuws</a>
+            </div>
+          </div>
+
+        <img  class="header_house" src="images/house.svg" alt="house">
         <div class="header__title"> EcoCabins </div>
 
         <nav class="header__nav">
@@ -34,12 +59,12 @@
 
         </nav>
 
-        <button class="button_global"> Contact</button>
+        <button class="button_global header_button"> Contact</button>
 
       </header>
     </div>
 
-    <div class="container">
+    <div class="container container__text">
       <div class="hero__text">
 
         <h1 class="hero__title"> Sustainable tiny houses</h1>
@@ -47,9 +72,9 @@
           natural materials as possible </p>
       </div>
 
-      <img src="images/button.svg" alt="button">
+      <img src="images/button.svg " class="image" alt="button">
 
-      <div>Watch the movie</div>
+      <div class="movie">Watch the movie</div>
 
     </div>
   </section>
@@ -143,7 +168,7 @@
     </div>
 
     <li class="footer-item"><a href="">Cookies</a></li>
-    <li class="footer-item"><a href="">Privacybeleid</a></li>
+    <li class="footer-item "><a href="">Privacybeleid</a></li>
   </div>
 
 </footer>

@@ -2,17 +2,20 @@
     background-image: url(../images/bgimage.svg);
     background-repeat: no-repeat ;
     background-position: center;    /* % or px*/
+    padding-top: 2vh;
 
-/*    background: url(../images/bgimage.svg) no-repeat right -120% top; */ 
 }
 
-.hero__inner{
+
+
+.hero__text{
 
     width: 440px;
+
     padding-bottom:170px;
-    padding-top: 150px;
+    padding-top: 15%;
     padding-left: 8%;
-    padding-right: 25%;
+    padding-right: 15%;
 }
 
 .hero__title{
@@ -29,38 +32,12 @@
     font-size: 30px;  
     line-height: 38px;
 }
-
-.hero_social{
- /* 
-    height:500px; 
-    width:500px;
-        padding-left: 50px;
-    */
-    align-self: center;
-
-
-    
-    margin-left: 0%;
-
-
+.hero_item{
+    font-size: 12px;
 }
 
-.hero__links{
-    transform: rotate(90deg);
 
 
-}
-/*
-.hero_movie{
-    margin-right: 60px;
-}
-*/
-.container{
 
-
-display: flex;
-align-items:center;
-
-}
 
 
