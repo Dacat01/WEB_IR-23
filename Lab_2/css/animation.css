@@ -1,36 +1,31 @@
-@keyframes spin{
-    from{
-        transform: rotate(0deg);
-    }
-
-    to{
-        transform: rotate(360deg);
-    }
-}
-
 @keyframes color{
     from{
-        color: #fff;
+        color: brown;
     }
     33%{
-        color: yellow;
+        color: gray;
 
     }
-    66%{
-        color: red;
 
-    }
     to{
-        color: blue;
+        color: slateblue;
     }
 }
 
-@keyframes opacity{
-    from{
-        opacity: 0.1;
-    }
+@keyframes floating{
+    0% {
+        transform: translateY(-20px);
+        border-color: red;
 
-    to{
-        opacity: 1;
-    }
+      }
+      50% {
+        transform: translateY(0);
+        border-color: darkgreen;
+
+      }
+      100% {
+        transform: translateY(-20px);
+        border-color: black;
+
+      }
 }

@@ -2,74 +2,83 @@
     background-image: url(../images/bgimage.svg);
     background-repeat: no-repeat ;
     background-position: center;    /* % or px*/
-    padding-top: 2vh;
 
+    padding: 10px 10px 0;
+    min-height: 100%;
+    overflow: hidden;
 }
 
-
-@media screen and (max-width: 320px) {
-
-    .hero__title{
-        font-weight: 500 !important;
-        font-size: 12px !important;  
-        line-height: 19px !important; 
-        }
-
-    .hero__paragraph{
-        font-size: 16px !important;  
-        line-height: 15px !important; 
-    }
-
-    .container__text{
-        padding-right: 5vw !important;
-    }
-    .movie{
-        font-size: 12px !important;  
-    }
-
-    .hero__text{
-        width: 50% !important;
-        padding-top: 5% !important ;
-        padding-left: 5% !important ;
-        padding-right: 0% !important;
-    }
-    .movie{
-        font-size:14px !important;
-    }    
+.container{
+    display: flex;
+    align-items:center;
 }
 
 .hero__text{
 
     width: 440px;
 
-    padding-bottom:15%;
+    padding-bottom:170px;
     padding-top: 15%;
     padding-left: 8%;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .hero__title{
 
         font-weight: 500;
-        font-size: 16px;  
-        line-height: 19px;
+        font-size: 1rem;  
+        line-height: 1.1875rem;
         color: #FFFFFF;
 }
 
 .hero__paragraph{
     font-family: Merriweather;
     font-weight: 900;
-    font-size: 30px;  
-    line-height: 38px;
+    font-size: 1.875rem;  
+    line-height: 2.375rem;
+}
+.hero_item{
+    font-size: 0.75rem;
 }
 
-.movie{
-    animation: color 4s;
-    animation-iteration-count: infinite;
+
+@media screen and (max-width: 768px) {
+    .hero{
+    background-image: none;
+    background-color: #26353B;
+    width: 100%;
+    padding: 0 0 0 0;
+    }
+
+  
+    .hero__text{
+        
+        padding: 5% 25% 2% 25% ;
+        text-align: center;
+    }
+
+    .hero__title{
+        padding: 25% 15% 2% 15% ;
+    }
+
+    .movie{
+       display: none; 
+    }
+
+    .container{
+        align-items: center;
+    }
 }
 
 
 
+@media screen and (max-width: 400px) {
+    .hero__paragraph{
+      font-size: 1.5rem;
 
-
-
+    }
+    
+    .hero__text{
+        padding: 0 10% 2% 10%;
+    }
+    }

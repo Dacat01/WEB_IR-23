@@ -1,37 +1,51 @@
-
 .innovate{
 
     margin: 0 auto;
-    max-width: 1000px;          /*??*/
+    max-width: 1000px;          
     background: #26353B;
 }
 
 .innovate__container{
 
-    width: 80%;
-    padding: 5vh 0vw 6vh 7vw;           /*<,----*/
+    width: 800px;
+    padding: 30px 0px 50px 70px;
+
 }
 
 .innovate_title{
     font-family: Merriweather;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
-    line-height: 38px; 
-
-    animation: opacity 8s;
-    animation-iteration-count: infinite;
+    font-size: 1.875rem;
+    line-height: 2.375rem; 
 }
 .innovate_paragraph{
 
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    /* margin-left: 5px; */
 }
 .innovate_paragraph{
     display: flex;
     justify-content: space-between;
-
 }
+
+@media screen and (max-width: 768px) 
+{
+    .innovate__container{
+
+        width: 80%;
+        padding: 2vw 2vw 2vw 10vw;
+    }
+    .innovate_title{
+        text-align: center;
+    }
+
+    .innov_f_par{
+        padding-right: 3vw;
+    }
+}
+
