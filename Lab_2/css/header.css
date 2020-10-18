@@ -63,7 +63,7 @@
   right: 0;
   top:0;
 
-  padding-top: 70px;
+  padding-top: 5px;
 
 
   margin:0;
@@ -98,7 +98,7 @@
   background-color:#26353B;
   z-index: 11;
   position: fixed;
-  top: 100px;
+  top: 35px;
   left: 0;
   right: 0;
   bottom: 0;
