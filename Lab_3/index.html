@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Website </title>
+
+    <!-- Support libs -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- My styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <!-- UUID library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class>
+          <h1 class="text-center">Zoo</h1>
+        </div>
+
+        <div class="row">
+          <div class="zoo">
+            <form id="" class="form">
+              <h3 class="input_elements">Add/Edit zoo</h3>
+
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="title_input" />
+              </div>
+
+              <label for="exampleInputPassword1" class="form-label">Quantity of visitors per year</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="visitors_input" />
+              </div>
+
+              <label for="exampleInputPassword1" class="form-label">Quantity of animals</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="animals_input" />
+              </div>
+
+              <button id="submit_button" type="submit" class="btn btn-primary">
+                Submit
+              </button>
+
+            </form>
+
+            <div class="search">
+                <h4 class="input_elements">Find zoo</h4>
+                <input id="find_input" type="text" class="form-control" />
+              <div>
+              <div class="buttons"> 
+                <button id="find_button" type="button" class="btn btn-primary mt-4">
+                  Find
+                </button>
+  
+                <button id="cancel_find_button" type="button" class="btn btn-danger mt-4">
+                  Cancel
+                </button>
+              </div>
+
+              <div class="buttons">
+                <div class="input_elements">
+                  <input type="text" class="form-control" id="count_output" value="Сума всіх тварин у зоопарках"/>
+                </div>
+                <button id="count_button" type="button" class="btn-count btn-primary mt-4">
+                  Count
+                </button>
+                <button id="sort_button" type="button" class="btn-sort btn-primary mt-4">
+                  Sort
+                </button> 
+              </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+            <div class="items">
+                <ul id="items_container" class="col-md-4 mt-5 mt-md-2 mx-auto"> </ul>
+             </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
