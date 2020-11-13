@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Website </title>
+
+    <!-- Support libs -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- My styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <!-- UUID library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+        <div class="row">
+          <div class="zoo">
+            <form id="" class="form">
+                 <nav class="nav">
+                <a href="http://127.0.0.1:5501" class="nav_a active">Zoos</a>
+                <a href="http://127.0.0.1:5501/create.html" class="nav_a ">Add zoo</a>
+            </nav>
+
+            <div class="search">
+                <h4 class="input_elements">Find zoo:</h4>
+                <input id="find_input" type="text" class="form-control" />
+              <div>
+              <div class="buttons"> 
+                <button id="find_button" type="button" class="btn btn-primary">
+                  Find
+                </button>
+  
+                <button id="cancel_find_button" type="button" class="btn btn-cancel">
+                  Cancel
+                </button>
+              </div>
+
+              <div class="buttons">
+                <div class="input_elements">
+                  <input type="text" class="form-control" id="count_output" disabled="disabled" value="Сума всіх тварин у зоопарках"/>
+                </div>
+                <button id="count_button" type="button" class="btn-count btn-primary mt-4">
+                  Count
+                </button>
+                <button id="sort_button" type="button" class="btn-sort btn-primary mt-4">
+                  Sort zoos by number of animals
+                </button> 
+              </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <hr>  
+
+            <div class="items">
+                <ul id="items_container" class="col-md-4 mt-5 mt-md-2 mx-auto"> </ul>
+             </div>
+
+        </div>
+
+    </div>
+
+    <script 
+    let zoo = [];
+    type="module" src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Website </title>
+
+    <!-- Support libs -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- My styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <!-- UUID library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+        <div class="row">
+          <div class="zoo">
+            <form id="create_form" class="form">
+            <nav class="nav_create">
+                <a href="http://127.0.0.1:5501" class="nav_a ">Zoos</a>
+                <a href="http://127.0.0.1:5501/create.html" class="nav_a active">Add zoo</a>
+            </nav>
+ 
+              <label for="exampleInputEmail1" class="form-label">Name:</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="title_input" />
+              </div>
+
+              <label for="exampleInputPassword1" class="form-label">Quantity of visitors per year:</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="visitors_input" />
+              </div>
+
+              <label for="exampleInputPassword1" class="form-label">Quantity of animals:</label>
+              <div class="input_elements">
+                <input type="text" class="form-control" id="animals_input" />
+              </div>
+
+              <button id="submit_button" type="submit" class="btn-submit btn-primary">
+                Add
+              </button>
+
+            </form>
+
+    </div>
+
+    <script type="module" src="./js/create.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+
+.btn-cancel{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 8px;
+
+}
+
+.btn{
+    width: 46.6%;
+    font-size: 26px; 
+}
+
+.btn-count,.btn-sort{
+width: 93.5%;
+font-size: 26px; 
+}
+
+.btn-count{
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.btn-sort{
+    background-color: blueviolet;
+}
+
+hr{
+margin-left: -7%;
+}
